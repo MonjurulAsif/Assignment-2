@@ -26,6 +26,7 @@
     border: none;
     color: #FFFFFF;
     padding: 16px 32px;
+    cursor: pointer;
 }
 
 .description-color {
@@ -242,8 +243,11 @@ ul li {
     color: white;
     font-size: 1.5rem;
     font-weight: 800;
-    bottom: 133px;
-    left: 180px;
+
+    width: 50%;
+    bottom: 140px;
+    left: 175px;
+    max-width: 600px;
 }
 
 .Srilanka {
@@ -251,8 +255,11 @@ ul li {
     color: white;
     font-size: 1.5rem;
     font-weight: 800;
-    bottom: 133px;
-    left: 100px;
+
+    width: 50%;
+    bottom: 132px;
+    left: 105px;
+    max-width: 600px;
 }
 
 .North-America {
@@ -260,8 +267,11 @@ ul li {
     color: white;
     font-size: 1.5rem;
     font-weight: 800;
-    bottom: 133px;
-    left: 100px;
+
+    width: 50%;
+    bottom: 132px;
+    left: 110px;
+    max-width: 600px;
 }
 
 .Kashmir {
@@ -269,8 +279,11 @@ ul li {
     color: white;
     font-size: 1.5rem;
     font-weight: 800;
-    bottom: 133px;
-    left: 60px;
+
+    width: 50%;
+    bottom: 132px;
+    left: 65px;
+    max-width: 600px;
 }
 
 .Bangladesh {
@@ -278,8 +291,11 @@ ul li {
     color: white;
     font-size: 1.5rem;
     font-weight: 800;
-    bottom: 133px;
-    left: 115px;
+
+    width: 50%;
+    bottom: 140px;
+    left: 135px;
+    max-width: 600px;
 }
 
 .Bandarban {
@@ -287,8 +303,11 @@ ul li {
     color: white;
     font-size: 1.5rem;
     font-weight: 800;
-    bottom: 133px;
+
+    width: 50%;
+    bottom: 140px;
     left: 205px;
+    max-width: 600px;
 }
 
 /* choose */
@@ -305,7 +324,7 @@ ul li {
     margin-bottom: 48px;
 }
 
-.choose-part-1{
+.choose-part-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -332,7 +351,7 @@ ul li {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     /* height: 284px; */
-} 
+}
 
 .img {
     padding: 32px 0 32px 32px;
@@ -345,14 +364,109 @@ ul li {
     padding: 0 0 16px 32px;
 
 }
-.choose-des{
+
+.choose-des {
     padding: 0 50px 32px 32px;
 }
-.choose-part-2{
+
+.choose-part-2 {
     width: 55%;
     max-width: 1055px;
     margin: 0 auto;
 }
+
+/* news latter */
+.news-latter {
+    margin-top: 80px;
+    display: flex;
+    gap: 24px;
+}
+
+.news-latter>.news-latter-form {
+    width: 39%;
+}
+
+.news-latter-form {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.news-latter>.news-latter-images {
+    width: 58%;
+}
+
+.news-latter-images>img {
+    width: 100%;
+}
+
+.news-latter-tittle {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.news-latter-description {
+    color: #5A5A5D;
+    margin-bottom: 24px;
+}
+
+#news-name,
+#news-email {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 52px;
+    border: none;
+    padding: 16px;
+    margin-top: 15px;
+}
+
+.news-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 100%;
+    height: 52px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.travel-70 {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+}
+
+.travel-70 {
+    position: relative;
+    bottom: 180px;
+    left: 745px;
+}
+
+.travel-70>h5 {
+    padding-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.travel-70>h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+
 
 /* media screen */
 
@@ -472,8 +586,11 @@ ul li {
         color: white;
         font-size: 1.5rem;
         font-weight: 800;
-        bottom: 140px;
-        left: 160px;
+
+        width: 50%;
+        bottom: 110px;
+        left: 135px;
+        max-width: 600px;
     }
 
     .Srilanka {
@@ -481,8 +598,11 @@ ul li {
         color: white;
         font-size: 1.5rem;
         font-weight: 800;
-        bottom: 170px;
-        left: 165px;
+
+        width: 50%;
+        bottom: 140px;
+        left: 125px;
+        max-width: 600px;
     }
 
     .North-America {
@@ -490,8 +610,11 @@ ul li {
         color: white;
         font-size: 1.5rem;
         font-weight: 800;
-        bottom: 148px;
-        left: 130px;
+
+        width: 50%;
+        bottom: 120px;
+        left: 105px;
+        max-width: 600px;
     }
 
     .Kashmir {
@@ -499,8 +622,11 @@ ul li {
         color: white;
         font-size: 1.5rem;
         font-weight: 800;
-        bottom: 215px;
-        left: 160px;
+
+        width: 50%;
+        bottom: 190px;
+        left: 125px;
+        max-width: 600px;
     }
 
     .Bangladesh {
@@ -508,8 +634,11 @@ ul li {
         color: white;
         font-size: 1.5rem;
         font-weight: 800;
-        bottom: 143px;
-        left: 145px;
+
+        width: 50%;
+        bottom: 130px;
+        left: 115px;
+        max-width: 600px;
     }
 
     .Bandarban {
@@ -517,16 +646,62 @@ ul li {
         color: white;
         font-size: 1.5rem;
         font-weight: 800;
-        bottom: 118px;
-        left: 150px;
+
+        width: 50%;
+        bottom: 100px;
+        left: 115px;
+        max-width: 600px;
     }
+
     /* choose */
-    .choose-part-1{
+    .choose-part-1 {
         flex-direction: column;
     }
-    .choose-part-2{
+
+    .choose-part-2 {
         width: 100%;
     }
-    
-    
+
+    /* news latter */
+    .news-latter {
+        flex-direction: column;
+    }
+
+    .news-latter>.news-latter-form {
+        width: 100%
+    }
+
+    .news-latter>.news-latter-images {
+        width: 100%;
+    }
+
+    .travel-70 {
+        border-radius: 16px;
+        background: #FF5400;
+        width: 50%;
+        height: 70px;
+        transform: rotate(-19.628deg);
+
+        position: relative;
+        bottom: 110px;
+        left: 205px;
+        max-width: 600px;
+    }
+
+    .travel-70>h5 {
+        padding-top: 10px;
+        color: #FFF;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .travel-70>h3 {
+        color: #FFF;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 800;
+
+    }
+
 }
