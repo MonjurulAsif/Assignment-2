@@ -184,6 +184,7 @@ ul li {
 .destination-tittle,
 .destination-description {
     text-align: center;
+    padding-bottom: 20px;
 
 }
 
@@ -466,7 +467,50 @@ ul li {
 
 }
 
+/* footer section start */
+/* .footer{
+    width: 100%;
+    max-width: 1920px;
+    margin:  auto;
+} */
+.footer {
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
 
+.footer-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.footer-heading img {
+    width: 40px;
+    height: 46.673px;
+}
+
+.footer-heading h3 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.footer-description {
+    margin-top: 15px;
+}
+
+.footer-image i {
+    padding: 10px;
+}
+
+.hrr {
+    margin: 30px auto;
+    width: 60%;
+    height: 1px;
+}
 
 /* media screen */
 
